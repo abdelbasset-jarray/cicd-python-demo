@@ -37,7 +37,7 @@ VI- Remarque: Si vous recevez une erreur similaire à la suivante lors de l'acc�
  
           oc annotate sa jenkins serviceaccounts.openshift.io/oauth-redirectreference.jenkins='{"kind":"OAuthRedirectReference","apiVersion":"v1","reference":{"kind":"Route","name":"jenkins"}}' -n cicd 
 
-VI- Pour nettoyer / désinstaller la demo, supprimez les projets:
+VII- Pour nettoyer / désinstaller la demo, supprimez les projets:
 
        oc delete project cicd-prod
        oc delete project cicd-staging
