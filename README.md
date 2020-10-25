@@ -1,4 +1,4 @@
-# cicd-python-demo
+# Openshift Multi Project CI CD Python-demo
 Exemple : Openshift Multi Project CI CD Python
 
 I- Configurez l'environnement OpenShift avec les projets suivants:
