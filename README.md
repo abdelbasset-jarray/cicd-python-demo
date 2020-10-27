@@ -33,7 +33,7 @@ VI- Remarque: Si vous recevez une erreur similaire à la suivante lors de l'acc�
 	  {"error":"server_error","error_description":"The authorization server encountered an unexpected condition that prevented it from fulfilling the request.","state":"N2UwMTkwNzktYjBmNi00"}
 	  
 
- Execute the following command and retry:
+ Exécutez la commande suivante et réessayez:
  
           oc annotate sa jenkins serviceaccounts.openshift.io/oauth-redirectreference.jenkins='{"kind":"OAuthRedirectReference","apiVersion":"v1","reference":{"kind":"Route","name":"jenkins"}}' -n cicd 
 
